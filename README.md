@@ -39,8 +39,8 @@ Customize your gaming experience with adjustable speed and audio settings.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/snake-game.git
-   cd snake-game
+   git clone https://github.com/burakcabas/SnakeGame.git
+   cd SnakeGame
    ```
 
 2. **Open in IntelliJ IDEA**
