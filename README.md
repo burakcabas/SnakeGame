@@ -65,8 +65,3 @@ The game follows a **multi-class object-oriented design** with clear separation 
 - **Java Sound API** - Audio generation
 - **AWT Graphics2D** - 2D rendering
 - **Timer** - Game loop management
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
