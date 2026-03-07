@@ -27,39 +27,6 @@ Classic snake mechanics with smooth movement and collision detection.
 ### Settings Panel
 Customize your gaming experience with adjustable speed and audio settings.
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Java Development Kit (JDK) 8 or higher
-- IntelliJ IDEA Community Edition (or any Java IDE)
-- Git 
-
-## 🎯 How to Play
-
-### Controls
-
-| Key | Action |
-|-----|--------|
-| **Arrow Keys** / **WASD** | Move the snake |
-| **Space** | Restart game (when game over) |
-| **Escape** | Return to menu |
-| **Enter** | Select menu option |
-
-### Gameplay
-
-1. **Start the game** from the main menu
-2. **Guide the snake** to eat red apples
-3. **Grow longer** with each apple eaten
-4. **Avoid collisions** with walls and yourself
-5. **Beat your high score!**
-
-### Settings
-
-- **Sound Toggle** - Enable/disable sound effects
-- **Volume Control** - Adjust audio volume (0-100%)
-- **Game Speed** - Control snake movement speed (1-10)
-
 ## 🏗️ Project Structure
 
 ```
@@ -109,41 +76,6 @@ The game follows a **multi-class object-oriented design** with clear separation 
 - **Java Sound API** - Audio generation
 - **AWT Graphics2D** - 2D rendering
 - **Timer** - Game loop management
-
-## 🎨 Customization
-
-### Changing Game Colors
-
-Edit the color values in the respective classes:
-
-```java
-// Snake.java - Snake colors
-g.setColor(Color.GREEN);              // Head
-g.setColor(new Color(45, 180, 0));    // Body
-
-// Apple.java - Apple color
-g2d.setColor(Color.RED);
-```
-
-### Adjusting Game Speed
-
-Modify the speed calculation in `GameSettings.java`:
-
-```java
-public int getGameDelay() {
-    return 200 - (gameSpeed * 15);  // Adjust formula here
-}
-```
-
-### Board Size
-
-Change board dimensions in `GamePanel.java`:
-
-```java
-private static final int BOARD_WIDTH = 600;   // Width in pixels
-private static final int BOARD_HEIGHT = 600;  // Height in pixels
-private static final int UNIT_SIZE = 25;      // Grid unit size
-```
 
 ## 📄 License
 
