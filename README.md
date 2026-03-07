@@ -33,43 +33,7 @@ Customize your gaming experience with adjustable speed and audio settings.
 
 - Java Development Kit (JDK) 8 or higher
 - IntelliJ IDEA Community Edition (or any Java IDE)
-- Git (for cloning the repository)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/burakcabas/SnakeGame.git
-   cd SnakeGame
-   ```
-
-2. **Open in IntelliJ IDEA**
-   - Open IntelliJ IDEA
-   - Select `File > Open`
-   - Navigate to the project directory
-   - Click `OK`
-
-3. **Run the game**
-   - Navigate to `src/main/java/burak/SnakeGameMain.java`
-   - Right-click and select `Run 'SnakeGameMain.main()'`
-
-### Building a Standalone JAR
-
-1. **Configure the artifact**
-   - Go to `File > Project Structure > Artifacts`
-   - Click `+` and select `JAR > From modules with dependencies`
-   - Set Main Class to `burak.SnakeGameMain`
-   - Click `OK`
-
-2. **Build the JAR**
-   - Go to `Build > Build Artifacts`
-   - Select your artifact and click `Build`
-   - Find the JAR in `out/artifacts/`
-
-3. **Run the JAR**
-   ```bash
-   java -jar SnakeGame.jar
-   ```
+- Git 
 
 ## 🎯 How to Play
 
