@@ -16,17 +16,6 @@ A modern, feature-rich implementation of the classic Snake game built with Java 
 - **Score Tracking** - Real-time score display during gameplay
 - **Game Over Screen** - Restart functionality with final score display
 
-## 📸 Screenshots
-
-### Main Menu
-The game features a clean, modern menu interface with easy navigation.
-
-### Gameplay
-Classic snake mechanics with smooth movement and collision detection.
-
-### Settings Panel
-Customize your gaming experience with adjustable speed and audio settings.
-
 ## 🏗️ Project Structure
 
 ```
